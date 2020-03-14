@@ -1,35 +1,32 @@
-.nav {
-	z-index: 10;
-	position: fixed;
-	width: 100%;
-	.nav-list {
-		padding: 0.2rem;
+.footer {
+	padding: 0.5rem;
+	.footer-list {
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 		background-color: white;
-		.nav-logo {
-			height: 50px;
-			.nav-list-item {
+		.footer-logo {
+			height: 3.125rem;
+			.footer-list-item {
 				font-family: "Encode Sans Semi Expanded", sans-serif;
 				font-size: 14px;
 				font-weight: 500;
 				letter-spacing: 1.6px;
 				color: #000000;
-				.nav-list-logo {
+				.footer-list-logo {
 					font-family: "Encode Sans Semi Expanded", sans-serif;
 					font-size: 33px;
 					font-weight: 900;
 					color: #045a93;
 				}
-				.nav-logo-image {
-					height: 39px;
+				.footer-logo-image {
+					height: 2.438rem;
 				}
 			}
 		}
-		.nav-item-container {
+		.footer-item-container {
 			position: sticky;
-			height: 50px;
+			height: 3.125rem;
 			display: flex;
 			justify-content: flex-end;
 			margin: 0px;
@@ -37,16 +34,19 @@
 			width: 80%;
 			align-items: center;
 			background-color: white;
-			.nav-list-item {
+			.footer-list-item {
 				font-family: "Encode Sans Semi Expanded", sans-serif;
 				font-size: 14px;
 				font-weight: 600;
 				letter-spacing: 1.6px;
-				.nav-list-link {
+				.footer-list-link {
 					color: black;
-					padding: 20px 30px;
-					margin: 10px 5px;
-					margin-bottom: 35px;
+					padding: 0.625rem 0.625rem;
+					margin: 0.625rem 0.313rem;
+					margin-bottom: 2.188rem;
+					i {
+						font-size: 1.25rem;
+					}
 				}
 			}
 		}

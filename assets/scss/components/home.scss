@@ -1,6 +1,7 @@
 .home-main-container {
 	display: flex;
 	position: relative;
+	margin-bottom: 5rem;
 	.home-content-back {
 		background-color: #045a93;
 		display: flex;
@@ -10,30 +11,30 @@
 		width: 60%;
 
 		.home-content-insert {
-			margin-left: 180px;
-			margin-top: 50px;
-			margin-bottom: 300px;
+			margin-left: 11.25rem;
+			margin-top: 3.125rem;
+			margin-bottom: 18.75rem;
 			.home-subtitle {
 				font-family: regular;
-				font-size: 25px;
-				letter-spacing: 1.6px;
+				font-size: 1.563rem;
+				letter-spacing: 0.1rem;
 				font-weight: 400;
 				color: #fff;
-				margin-bottom: 20px;
+				margin-bottom: 1.25rem;
 			}
 
 			.home-main-title {
 				font-family: extra;
-				font-size: 70px;
+				font-size: 4.375rem;
 				font-weight: 550;
 				line-height: 1;
 				color: #fff;
 				margin-bottom: 1%;
 			}
 			.home-main-text {
-				margin-top: 30px;
+				margin-top: 1.875rem;
 				font-family: regular;
-				font-size: 20px;
+				font-size: 1.25rem;
 				font-weight: 400;
 				color: #fff;
 				line-height: 1.6;
@@ -46,7 +47,7 @@
 			}
 			.home-btn-sign {
 				font-family: regular;
-				font-size: 13px;
+				font-size: 0.813rem;
 				font-weight: 400;
 				letter-spacing: 2px;
 				background-color: #045a93;
@@ -54,7 +55,7 @@
 				cursor: pointer;
 				border: 1px solid #fff;
 				border-radius: 10px;
-				padding: 15px 70px;
+				padding: 0.938rem 4.375rem;
 			}
 		}
 	}
@@ -62,6 +63,78 @@
 		position: absolute;
 		z-index: 1;
 		right: 0;
-		top: 80px;
+		top: 5rem;
+	}
+}
+
+.stock-main-container {
+	width: 100%;
+	height: 90vh;
+	background: url("/static/images/stock-background.jpg");
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	.stock-container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 4rem;
+		margin-left: 0rem;
+		.stock-main-title {
+			font-family: extra;
+			color: #fff;
+			font-size: 3.5rem;
+			font-weight: 500;
+			padding: 1.875rem 1.875rem;
+		}
+		.stock-main-text {
+			.stock-main-text-detail {
+				font-family: regular;
+				font-size: 1.438 rem;
+				font-weight: 400;
+				padding: 0.5rem 1.2rem;
+				color: #fff;
+				margin: 0.3rem;
+			}
+		}
+		.stock-element {
+			display: flex;
+			padding: 1.875rem 1.875rem;
+			.stock-element-list {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-family: semi;
+				text-align: center;
+				font-weight: 500;
+				letter-spacing: 0.1em;
+				font-size: 1.5rem;
+				padding: 1.8rem 1.875rem;
+				margin-right: 0.5rem;
+				width: 40%;
+				color: #fff;
+				border: 2px solid white;
+				border-radius: 1.8rem;
+				opacity: 0.9;
+				margin-bottom: 0.8rem;
+			}
+		}
+		.stock-descript-quote {
+			font-family: regular;
+			font-size: 1.25rem;
+			font-weight: 400;
+			color: #fff;
+			line-height: 1.6;
+			margin-top: 0.5rem;
+		}
+	}
+}
+.stock-display {
+	width: 50%;
+	.stock-display {
+		font-size: 15px;
+		color: #fff;
 	}
 }

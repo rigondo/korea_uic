@@ -1,0 +1,87 @@
+.intro-main-container {
+	.intro-top-container {
+		width: 100%;
+		height: 55vh;
+		background: url("/static/images/intro-top.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		.intro-top-content {
+			text-align: left;
+			padding: 5rem 9rem 6rem 11rem;
+			.intro-top-title {
+				font-family: extra;
+				color: white;
+				font-size: 4rem;
+				font-weight: 500;
+				padding: 0.1rem 2rem;
+				margin-bottom: 2rem;
+				margin-top: 0;
+			}
+			.intro-top-text {
+				font-family: regular;
+				font-size: 20px;
+				font-weight: 400;
+				color: white;
+				.intro-text-detail {
+					padding: 12px;
+				}
+			}
+		}
+	}
+	.intro-status {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.status-box {
+			font-family: semi;
+			font-size: 20px;
+			font-weight: 500;
+			color: #045a93;
+			margin-top: 8%;
+			text-align: center;
+			border: 2px solid #045a93;
+			border-radius: 0.7rem;
+			padding: 45px;
+			margin-right: 50px;
+			margin-left: 50px;
+			.intro-status-element {
+				padding-top: 0.7rem;
+			}
+			i {
+				font-size: 3rem;
+			}
+		}
+	}
+	.intro-roadmap {
+		.intro-roadmap-content {
+			text-align: left;
+			padding: 7rem 9rem 6rem 11rem;
+			margin-top: 5rem;
+			.intro-roadmap-title {
+				font-family: extra;
+				color: black;
+				font-size: 3rem;
+				font-weight: 500;
+				padding: 0.1rem 2rem;
+				margin-bottom: 4rem;
+				margin-top: 0;
+			}
+			.intro-roadmap-text {
+				.intro-roadmap-detail {
+					padding: 12px;
+					margin-bottom: 3rem;
+					font-family: regular;
+					font-size: 30px;
+					font-weight: 300;
+					opacity: 0.6;
+					margin-bottom: 5rem;
+					color: black;
+				}
+			}
+			.intro-roadmap-img {
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+	}
+}

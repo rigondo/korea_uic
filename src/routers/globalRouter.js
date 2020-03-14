@@ -1,9 +1,13 @@
-import express from 'express';
+import express from "express";
+import * as global from "controllers/globalController";
 
 const globalRouter = express.Router();
 
-globalRouter.get('/', (req, res) => {
-  res.render('home');
-});
+globalRouter.get("/", global.home);
+globalRouter.get("/intro", global.intro);
+globalRouter.get("/members", global.members);
+globalRouter.get("/activity", global.activity);
+globalRouter.get("/hww", global.hww);
+globalRouter.get("/sponsor", global.sponsor);
 
 export default globalRouter;
