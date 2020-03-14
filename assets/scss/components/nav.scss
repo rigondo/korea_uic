@@ -1,0 +1,51 @@
+.nav {
+	padding: 0.5rem;
+	.nav-list {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		background-color: white;
+		.nav-logo {
+			height: 50px;
+			.nav-list-item {
+				font-family: "Encode Sans Semi Expanded", sans-serif;
+				font-size: 14px;
+				font-weight: 500;
+				letter-spacing: 1.6px;
+				color: #000000;
+				.nav-list-logo {
+					font-family: "Encode Sans Semi Expanded", sans-serif;
+					font-size: 33px;
+					font-weight: 900;
+					color: #045a93;
+				}
+				.nav-logo-image {
+					height: 39px;
+				}
+			}
+		}
+		.nav-item-container {
+			position: sticky;
+			height: 50px;
+			display: flex;
+			justify-content: flex-end;
+			margin: 0px;
+			padding: 0px;
+			width: 80%;
+			align-items: center;
+			background-color: white;
+			.nav-list-item {
+				font-family: "Encode Sans Semi Expanded", sans-serif;
+				font-size: 14px;
+				font-weight: 600;
+				letter-spacing: 1.6px;
+				.nav-list-link {
+					color: black;
+					padding: 20px 30px;
+					margin: 10px 5px;
+					margin-bottom: 35px;
+				}
+			}
+		}
+	}
+}
