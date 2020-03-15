@@ -45,17 +45,40 @@
 					margin: 0;
 				}
 			}
-			.home-btn-sign {
-				font-family: regular;
-				font-size: 0.813rem;
-				font-weight: 400;
-				letter-spacing: 2px;
-				background-color: #045a93;
-				color: #fff;
-				cursor: pointer;
-				border: 1px solid #fff;
-				border-radius: 10px;
-				padding: 0.938rem 4.375rem;
+			.home-btn {
+				.home-btn-sign {
+					font-family: regular;
+					font-size: 0.813rem;
+					font-weight: 400;
+					letter-spacing: 2px;
+					background-color: #045a93;
+					color: #fff;
+					cursor: pointer;
+					border: 1px solid #fff;
+					border-radius: 10px;
+					padding: 0.938rem 2.375rem;
+				}
+			}
+		}
+		.home-btn-arrow {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: regular;
+			font-size: 0.813rem;
+			font-weight: 400;
+			letter-spacing: 2px;
+			color: #fff;
+			margin-top: -7rem;
+			margin-right: 15rem;
+			margin-left: -20rem;
+			i {
+				padding: 0 1rem;
+			}
+			.home-btn-previous {
+				margin-right: 2rem;
+			}
+			.home-btn-next {
 			}
 		}
 	}

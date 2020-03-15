@@ -19,11 +19,11 @@
 			}
 			.intro-top-text {
 				font-family: regular;
-				font-size: 20px;
+				font-size: 1.25rem;
 				font-weight: 400;
 				color: white;
 				.intro-text-detail {
-					padding: 12px;
+					padding: 0.75rem;
 				}
 			}
 		}
@@ -34,7 +34,7 @@
 		align-items: center;
 		.status-box {
 			font-family: semi;
-			font-size: 20px;
+			font-size: 1.25rem;
 			font-weight: 500;
 			color: #045a93;
 			margin-top: 8%;
@@ -42,8 +42,8 @@
 			border: 2px solid #045a93;
 			border-radius: 0.7rem;
 			padding: 45px;
-			margin-right: 50px;
-			margin-left: 50px;
+			margin-right: 3.125rem;
+			margin-left: 3.125rem;
 			.intro-status-element {
 				padding-top: 0.7rem;
 			}
@@ -71,7 +71,7 @@
 					padding: 12px;
 					margin-bottom: 3rem;
 					font-family: regular;
-					font-size: 30px;
+					font-size: 1.875rem;
 					font-weight: 300;
 					opacity: 0.6;
 					margin-bottom: 5rem;
