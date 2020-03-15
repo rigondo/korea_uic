@@ -14,13 +14,52 @@ block content
           a(href="/hww")  
             button.home-btn-sign
               span.home-btn-sign-text SEE HOW WE WORK
-      .home-btn-arrow
-        i.fas.fa-arrow-left
-        .home-btn-previous PREVIOUS
-        .home-btn-next  NEXT
-        i.fas.fa-arrow-right
-    .home-img
-      img.home-img-origin(src="/static/images/home.jpg")
+  .glide
+    .glide__track(data-glide-el="track")
+      ul.glide__slides
+        li.glide__slide
+          img(src="/static/images/home.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home1.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home3.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home4.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home5.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home6.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home7.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home8.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home9.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home11.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home12.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home13.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home14.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home15.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home16.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home17.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home18.jpg", alt="")
+        li.glide__slide
+          img(src="/static/images/home2.jpg", alt="")
+    .home-btn-arrow(data-glide-el="controls")
+      i.fas.fa-arrow-left        
+      button(data-glide-dir="<") PREVIOUS
+      button(data-glide-dir=">") NEXT
+      i.fas.fa-arrow-right
+       
+      
   .stock-main-container
     .stock-container
       h3.stock-main-title INDEX
@@ -38,5 +77,10 @@ block content
       p.stock-descript-quote my way of looking at the market - George Soros
     .stock-display
       h3.stock-display display image
+
+     
+
+
+    
 
         
