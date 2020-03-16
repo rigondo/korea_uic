@@ -1,0 +1,77 @@
+.member-main-container {
+	.member-top-container {
+		width: 100%;
+		height: 55vh;
+		background: url("/static/images/members-top.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		.member-top-content {
+			text-align: left;
+			padding: 5rem 9rem 6rem 11rem;
+			.member-top-title {
+				font-family: extra;
+				color: white;
+				font-size: 3.5rem;
+				font-weight: 500;
+				margin-bottom: 2rem;
+				margin-top: 2rem;
+			}
+			.member-top-text {
+				font-family: regular;
+				font-size: 1.25rem;
+				font-weight: 400;
+				color: white;
+				.member-text-detail {
+					padding: 0.75rem;
+				}
+			}
+		}
+	}
+	.member-design-container {
+		.member-design-content {
+			text-align: left;
+			padding: 7rem 9rem 6rem 11rem;
+			margin-top: 5rem;
+			.member-design-img {
+				margin: 0 auto;
+				text-align: center;
+			}
+		}
+	}
+	.member-member-container {
+		.member-member-title {
+			font-family: extra;
+			color: black;
+			font-size: 3rem;
+			font-weight: 500;
+			text-align: center;
+			margin-top: 11rem;
+			margin-bottom: 8rem;
+		}
+		.member-member-content {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-top: 70px;
+			.member-member-item {
+				text-align: center;
+				margin-bottom: 8rem;
+				.member-member-img {
+					margin-bottom: 1rem;
+				}
+				.member-member-name {
+					font-family: extra;
+					font-size: 1.5rem;
+					font-weight: 500;
+					margin-bottom: 0.8rem;
+				}
+				.member-member-job {
+					font-family: regular;
+					font-size: 1.2rem;
+					font-weight: 400;
+				}
+			}
+		}
+	}
+}
