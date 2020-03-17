@@ -23,6 +23,10 @@
 				color: white;
 				.member-text-detail {
 					padding: 0.75rem;
+					margin-bottom: 1rem;
+				}
+				.member-mobile-text {
+					display: none;
 				}
 			}
 		}
@@ -70,6 +74,231 @@
 					font-family: regular;
 					font-size: 1.2rem;
 					font-weight: 400;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.member-main-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		.member-top-container {
+			padding: 0;
+			margin: 0;
+			background: url("/static/images/members-top.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			margin-bottom: 3rem;
+			.member-top-content {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				bottom: -7rem;
+				.member-top-title {
+				}
+				.member-top-text {
+					margin-bottom: 2rem;
+					.member-text-detail {
+						padding: 1rem;
+						margin-bottom: 1rem;
+					}
+					.member-mobile-text {
+						display: none;
+					}
+				}
+			}
+		}
+		.member-design-container {
+			padding: 0;
+			margin: 0;
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			.member-design-content {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				left: 0;
+				margin-bottom: 3rem;
+				.member-design-img {
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.member-member-container {
+			padding: 0;
+			margin: 0;
+			position: relative;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			.member-member-title {
+				padding: 0;
+				margin: 0;
+				font-size: 3rem;
+				margin-bottom: 4rem;
+				margin-top: 4rem;
+			}
+			.member-member-content {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+				.member-member-item {
+					margin: 0;
+					position: relative;
+					top: 0;
+					right: 0;
+					left: 0;
+					bottom: 0;
+					margin-bottom: 2rem;
+					.member-member-img {
+						width: 10rem;
+					}
+					.member-member-name {
+						font-size: 1.5rem;
+					}
+					.member-member-job {
+						font-size: 1.5rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.member-main-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		.member-top-container {
+			position: relative;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			padding: 0;
+			margin: 0;
+			background: url("/static/images/members-top.jpg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			.member-top-content {
+				.member-top-title {
+					margin-bottom: 1rem;
+					padding-top: 2rem;
+					font-size: 2rem;
+					margin: 0;
+					padding: 0;
+					text-align: right;
+					position: relative;
+					top: -3rem;
+				}
+				.member-top-text {
+					position: relative;
+					top: 0rem;
+					.member-text-detail {
+						display: none;
+					}
+					.member-mobile-text {
+						display: block;
+						font-size: 1rem;
+						margin: 0;
+						padding-bottom: 2rem;
+					}
+				}
+			}
+		}
+		.member-design-container {
+			padding: 0;
+			margin: 0;
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			.member-design-content {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				margin: 0;
+				position: relative;
+				left: 0;
+				margin-bottom: 3rem;
+				.member-design-img {
+					img {
+						width: 100%;
+					}
+				}
+			}
+		}
+		.member-member-container {
+			padding: 0;
+			margin: 0;
+			position: relative;
+			top: 0;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			margin-bottom: 2rem;
+			.member-member-title {
+				padding: 10px;
+				margin: 0;
+				font-size: 2rem;
+				border: 1px solid #045a93;
+				border-radius: 10px;
+				margin-bottom: 3rem;
+				margin-top: 1rem;
+			}
+			.member-member-content {
+				padding: 0;
+				margin: 0;
+				position: relative;
+				top: 0;
+				right: 0;
+				left: 0;
+				bottom: 0;
+				.member-member-item {
+					margin: 0;
+					position: relative;
+					top: 0;
+					right: 0;
+					left: 0;
+					bottom: 0;
+					margin-bottom: 2rem;
+					border: 1px solid #045a93;
+					.member-member-img {
+						width: 5rem;
+					}
+					.member-member-name {
+						font-size: 1rem;
+					}
+					.member-member-job {
+						font-size: 0.7rem;
+					}
 				}
 			}
 		}

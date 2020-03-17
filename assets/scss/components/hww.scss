@@ -28,6 +28,9 @@
 				.hww-text-detail {
 					padding: 0.75rem;
 				}
+				.hww-mobile-text {
+					display: none;
+				}
 			}
 		}
 	}
@@ -229,6 +232,540 @@
 				.hww-fund-detail {
 					padding: 0.75rem;
 					margin-bottom: 0.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.hww-main-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		.hww-top-container {
+			.hww-top-content {
+				width: 100%;
+				top: 9rem;
+				padding: 0;
+				padding-top: 5rem;
+				.hww-top-title {
+					padding: 0;
+					text-align: center;
+					position: relative;
+					top: 2rem;
+				}
+				.hww-top-text {
+					text-align: center;
+					.hww-text-detail {
+						font-size: 1.1rem;
+						margin-bottom: 1rem;
+						padding: 0;
+						padding-bottom: 2rem;
+						padding-left: 2.5rem;
+						position: relative;
+						top: 4rem;
+						text-align: center;
+					}
+					.hww-mobile-text {
+						display: none;
+					}
+				}
+			}
+		}
+		.hww-member-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			.hww-member-content {
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+
+				padding: 0;
+				margin: 0;
+				.hww-member-item {
+					.hww-member-img {
+					}
+
+					.hww-member-name {
+					}
+					.hww-member-job {
+					}
+				}
+			}
+			.hww-member-title {
+			}
+		}
+		.hww-work-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-work-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-work.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-work-title {
+					margin: 0;
+					font-size: 2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-work-text {
+					.hww-work-detail {
+						font-size: 1.2rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hww-cfa-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-cfa-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-cfa.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-cfa-title {
+					margin: 0;
+					font-size: 2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-cfa-text {
+					.hww-cfa-detail {
+						font-size: 1.2rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hww-invest-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-invest-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-invest.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-invest-title {
+					margin: 0;
+					font-size: 2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-invest-text {
+					.hww-invest-detail {
+						font-size: 1.2rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hww-ceo-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-ceo-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-ceo.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				.hww-ceo-title {
+					margin: 0;
+					font-size: 2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-ceo-text {
+					.hww-ceo-detail {
+						font-size: 1.2rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hww-fund-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: 30vh;
+			.hww-fund-content {
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				background: url(/static/images/hww-fund.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-fund-title {
+					margin: 0;
+					font-size: 2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 2rem;
+				}
+				.hww-fund-text {
+					.hww-fund-detail {
+						font-size: 1.2rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.hww-main-container {
+		position: relative;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		right: 0;
+		padding: 0;
+		margin: 0;
+		.hww-top-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			.hww-top-content {
+				width: 100%;
+				top: 9rem;
+				padding: 0;
+				padding-top: 5rem;
+				.hww-top-title {
+					padding: 0;
+					text-align: center;
+					font-size: 2rem;
+					position: relative;
+					top: -2rem;
+					text-align: right;
+					margin: 0;
+				}
+				.hww-top-text {
+					text-align: center;
+					.hww-text-detail {
+						display: none;
+					}
+					.hww-mobile-text {
+						display: block;
+						font-size: 0.7rem;
+						margin-bottom: 2rem;
+						margin-top: 2rem;
+						padding-left: 2rem;
+						text-align: center;
+					}
+				}
+			}
+		}
+		.hww-member-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			.hww-member-content {
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+
+				padding: 0;
+				margin: 0;
+				.hww-member-item {
+					.hww-member-img {
+						width: 7rem;
+					}
+
+					.hww-member-name {
+					}
+					.hww-member-job {
+					}
+				}
+			}
+			.hww-member-title {
+				font-size: 1.8rem;
+				margin-top: 5rem;
+				margin-bottom: 4rem;
+			}
+		}
+		.hww-work-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-work-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-work.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-work-title {
+					margin: 0;
+					font-size: 1.2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-work-text {
+					margin-left: 0;
+					margin-right: 0;
+					.hww-work-detail {
+						font-size: 0.7rem;
+						padding: 0;
+						margin: 1rem;
+						margin-left: 0;
+						margin-right: 0;
+						text-align: center;
+						position: relative;
+						left: 0rem;
+						top: 1rem;
+						margin-left: 0;
+						margin-right: 0;
+					}
+				}
+			}
+		}
+		.hww-cfa-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-cfa-content {
+				width: 100%;
+				height: 35vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-cfa.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-cfa-title {
+					margin: 0;
+					font-size: 1.2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-cfa-text {
+					.hww-cfa-detail {
+						font-size: 0.7rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+						position: relative;
+						left: 0rem;
+						margin-left: 0;
+						margin-right: 0;
+						padding-left: 3rem;
+					}
+				}
+			}
+		}
+		.hww-invest-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-invest-content {
+				width: 100%;
+				height: 35vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-invest.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-invest-title {
+					margin: 0;
+					font-size: 1.2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-invest-text {
+					.hww-invest-detail {
+						font-size: 0.7rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+						position: relative;
+						left: 0rem;
+						margin-left: 0;
+						margin-right: 0;
+						padding-left: 3rem;
+					}
+				}
+			}
+		}
+		.hww-ceo-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: auto;
+			.hww-ceo-content {
+				width: 100%;
+				height: 30vh;
+				padding: 0;
+				margin: 0;
+				background: url(/static/images/hww-ceo.jpg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				.hww-ceo-title {
+					margin: 0;
+					font-size: 1.2rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 3rem;
+				}
+				.hww-ceo-text {
+					.hww-ceo-detail {
+						font-size: 0.7rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+						position: relative;
+						left: 0rem;
+						margin-left: 0;
+						margin-right: 0;
+						padding-left: 3rem;
+					}
+				}
+			}
+		}
+		.hww-fund-container {
+			position: relative;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			padding: 0;
+			margin: 0;
+			height: 30vh;
+			margin-bottom: 1rem;
+			.hww-fund-content {
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				padding: 0;
+				margin: 0;
+				width: 100%;
+				background: url(/static/images/hww-fund.jpg);
+				background-repeat: no-repeat;
+				background-size: cover;
+				.hww-fund-title {
+					margin: 0;
+					font-size: 1.3rem;
+					text-align: center;
+					margin-bottom: 2rem;
+					padding-top: 2rem;
+				}
+				.hww-fund-text {
+					.hww-fund-detail {
+						font-size: 0.7rem;
+						padding: 0;
+						margin: 1rem;
+						text-align: center;
+						position: relative;
+						left: 0rem;
+						margin-left: 0;
+						margin-right: 0;
+						padding-left: 3rem;
+					}
 				}
 			}
 		}
