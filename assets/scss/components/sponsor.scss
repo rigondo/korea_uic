@@ -41,6 +41,9 @@
 				margin-top: 11rem;
 				margin-bottom: 12rem;
 			}
+			.sponsor-mobile-img {
+				display: none;
+			}
 		}
 	}
 }
@@ -88,6 +91,9 @@
 						width: 100%;
 					}
 				}
+				.sponsor-mobile-img {
+					display: none;
+				}
 			}
 		}
 	}
@@ -118,7 +124,6 @@
 					text-align: center;
 					font-size: 2rem;
 					position: relative;
-					text-align: right;
 					top: 3rem;
 					margin: 0;
 				}
@@ -153,6 +158,10 @@
 				left: 0;
 				bottom: 0;
 				.sponsor-sponsor-img {
+					display: none;
+				}
+				.sponsor-mobile-img {
+					display: block;
 					img {
 						width: 100%;
 					}
