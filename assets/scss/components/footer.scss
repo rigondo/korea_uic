@@ -50,6 +50,9 @@
 				}
 			}
 		}
+		.footer-mobile-container {
+			display: none;
+		}
 	}
 }
 
@@ -93,6 +96,9 @@
 					padding: 3rem;
 				}
 			}
+			.footer-mobile-container {
+				display: none;
+			}
 		}
 	}
 }
@@ -107,7 +113,10 @@
 		padding: 0;
 		.footer-list {
 			position: relative;
+			top: 0;
 			left: 0;
+			bottom: 0;
+			right: 0;
 			.footer-logo {
 				display: none;
 				.footer-list-item {
@@ -119,6 +128,7 @@
 				}
 			}
 			.footer-item-container {
+				display: none;
 				.footer-list-item {
 					display: flex;
 					justify-content: flex-start;
@@ -147,6 +157,67 @@
 				}
 				#mymail {
 					display: none;
+				}
+			}
+			.footer-mobile-container {
+				display: block;
+				position: relative;
+				top: 0;
+				left: 0;
+				bottom: 0;
+				right: 0;
+				.footer-mobile-item {
+					display: flex;
+					justify-content: space-around;
+
+					.footer-mobile-list {
+						color: black;
+						margin-bottom: 0.1rem;
+						padding-top: 2rem;
+						padding-bottom: 2rem;
+						.footer-mobile-list-link {
+							i {
+								color: black;
+								font-size: 1.5rem;
+								margin-bottom: 0.1rem;
+							}
+						}
+					}
+				}
+				.footer-mobile-my {
+					display: flex;
+					position: relative;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					.footer-mobile-my-list {
+						text-align: center;
+						margin-bottom: 0.7rem;
+						padding-bottom: 0.4rem;
+						.footer-mobile-my-link {
+							color: black;
+							font-size: 1.5rem;
+							text-align: center;
+						}
+					}
+				}
+				.footer-mobile-mytext {
+					display: flex;
+					position: relative;
+					top: 0;
+					left: 0;
+					bottom: 0;
+					right: 0;
+					.footer-mobile-my-list {
+						text-align: center;
+						.footer-mobile-my-link {
+							color: black;
+							font-size: 1.3rem;
+							margin-bottom: 0.2rem;
+							text-align: center;
+						}
+					}
 				}
 			}
 		}

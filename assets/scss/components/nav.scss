@@ -127,7 +127,7 @@
 				display: none;
 				// display: block;
 				width: 200px;
-				height: 200px;
+				height: 20rem;
 				position: absolute;
 				top: 60px;
 				bottom: 0;
@@ -140,10 +140,10 @@
 					.nav-list-link {
 						padding: 0;
 						margin: 0;
-
 						display: block;
 						padding: 10px 10px;
-						font-size: 0.2rem;
+						padding-bottom: 15px;
+						font-size: 1.4rem;
 						border-bottom: 1px solid #045a93;
 					}
 				}
